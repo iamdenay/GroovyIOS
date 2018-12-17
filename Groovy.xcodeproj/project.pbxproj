@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2326276821C7B4F900263930 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2326276721C7B4F900263930 /* AppDelegate.swift */; };
+		2326276A21C7B4F900263930 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2326276921C7B4F900263930 /* FirstViewController.swift */; };
+		2326276C21C7B4F900263930 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2326276B21C7B4F900263930 /* SecondViewController.swift */; };
+		2326276F21C7B4F900263930 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2326276D21C7B4F900263930 /* Main.storyboard */; };
+		2326277121C7B4FB00263930 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2326277021C7B4FB00263930 /* Assets.xcassets */; };
+		2326277421C7B4FB00263930 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2326277221C7B4FB00263930 /* LaunchScreen.storyboard */; };
+		2326277F21C7B4FB00263930 /* GroovyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2326277E21C7B4FB00263930 /* GroovyTests.swift */; };
+		2326278A21C7B4FB00263930 /* GroovyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2326278921C7B4FB00263930 /* GroovyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2326277B21C7B4FB00263930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2326275C21C7B4F900263930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2326276321C7B4F900263930;
+			remoteInfo = Groovy;
+		};
+		2326278621C7B4FB00263930 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2326275C21C7B4F900263930 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2326276321C7B4F900263930;
+			remoteInfo = Groovy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2326276421C7B4F900263930 /* Groovy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Groovy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2326276721C7B4F900263930 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2326276921C7B4F900263930 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		2326276B21C7B4F900263930 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2326276E21C7B4F900263930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2326277021C7B4FB00263930 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2326277321C7B4FB00263930 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2326277521C7B4FB00263930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2326277A21C7B4FB00263930 /* GroovyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroovyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2326277E21C7B4FB00263930 /* GroovyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroovyTests.swift; sourceTree = "<group>"; };
+		2326278021C7B4FB00263930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2326278521C7B4FB00263930 /* GroovyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroovyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2326278921C7B4FB00263930 /* GroovyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroovyUITests.swift; sourceTree = "<group>"; };
+		2326278B21C7B4FB00263930 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2326276121C7B4F900263930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2326277721C7B4FB00263930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2326278221C7B4FB00263930 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2326275B21C7B4F900263930 = {
+			isa = PBXGroup;
+			children = (
+				2326276621C7B4F900263930 /* Groovy */,
+				2326277D21C7B4FB00263930 /* GroovyTests */,
+				2326278821C7B4FB00263930 /* GroovyUITests */,
+				2326276521C7B4F900263930 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2326276521C7B4F900263930 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2326276421C7B4F900263930 /* Groovy.app */,
+				2326277A21C7B4FB00263930 /* GroovyTests.xctest */,
+				2326278521C7B4FB00263930 /* GroovyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2326276621C7B4F900263930 /* Groovy */ = {
+			isa = PBXGroup;
+			children = (
+				2326276721C7B4F900263930 /* AppDelegate.swift */,
+				2326276921C7B4F900263930 /* FirstViewController.swift */,
+				2326276B21C7B4F900263930 /* SecondViewController.swift */,
+				2326276D21C7B4F900263930 /* Main.storyboard */,
+				2326277021C7B4FB00263930 /* Assets.xcassets */,
+				2326277221C7B4FB00263930 /* LaunchScreen.storyboard */,
+				2326277521C7B4FB00263930 /* Info.plist */,
+			);
+			path = Groovy;
+			sourceTree = "<group>";
+		};
+		2326277D21C7B4FB00263930 /* GroovyTests */ = {
+			isa = PBXGroup;
+			children = (
+				2326277E21C7B4FB00263930 /* GroovyTests.swift */,
+				2326278021C7B4FB00263930 /* Info.plist */,
+			);
+			path = GroovyTests;
+			sourceTree = "<group>";
+		};
+		2326278821C7B4FB00263930 /* GroovyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2326278921C7B4FB00263930 /* GroovyUITests.swift */,
+				2326278B21C7B4FB00263930 /* Info.plist */,
+			);
+			path = GroovyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2326276321C7B4F900263930 /* Groovy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2326278E21C7B4FB00263930 /* Build configuration list for PBXNativeTarget "Groovy" */;
+			buildPhases = (
+				2326276021C7B4F900263930 /* Sources */,
+				2326276121C7B4F900263930 /* Frameworks */,
+				2326276221C7B4F900263930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Groovy;
+			productName = Groovy;
+			productReference = 2326276421C7B4F900263930 /* Groovy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2326277921C7B4FB00263930 /* GroovyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2326279121C7B4FB00263930 /* Build configuration list for PBXNativeTarget "GroovyTests" */;
+			buildPhases = (
+				2326277621C7B4FB00263930 /* Sources */,
+				2326277721C7B4FB00263930 /* Frameworks */,
+				2326277821C7B4FB00263930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2326277C21C7B4FB00263930 /* PBXTargetDependency */,
+			);
+			name = GroovyTests;
+			productName = GroovyTests;
+			productReference = 2326277A21C7B4FB00263930 /* GroovyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2326278421C7B4FB00263930 /* GroovyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2326279421C7B4FB00263930 /* Build configuration list for PBXNativeTarget "GroovyUITests" */;
+			buildPhases = (
+				2326278121C7B4FB00263930 /* Sources */,
+				2326278221C7B4FB00263930 /* Frameworks */,
+				2326278321C7B4FB00263930 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2326278721C7B4FB00263930 /* PBXTargetDependency */,
+			);
+			name = GroovyUITests;
+			productName = GroovyUITests;
+			productReference = 2326278521C7B4FB00263930 /* GroovyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2326275C21C7B4F900263930 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "IcyFlame Studios";
+				TargetAttributes = {
+					2326276321C7B4F900263930 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2326277921C7B4FB00263930 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2326276321C7B4F900263930;
+					};
+					2326278421C7B4FB00263930 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2326276321C7B4F900263930;
+					};
+				};
+			};
+			buildConfigurationList = 2326275F21C7B4F900263930 /* Build configuration list for PBXProject "Groovy" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2326275B21C7B4F900263930;
+			productRefGroup = 2326276521C7B4F900263930 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2326276321C7B4F900263930 /* Groovy */,
+				2326277921C7B4FB00263930 /* GroovyTests */,
+				2326278421C7B4FB00263930 /* GroovyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2326276221C7B4F900263930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2326277421C7B4FB00263930 /* LaunchScreen.storyboard in Resources */,
+				2326277121C7B4FB00263930 /* Assets.xcassets in Resources */,
+				2326276F21C7B4F900263930 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2326277821C7B4FB00263930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2326278321C7B4FB00263930 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2326276021C7B4F900263930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2326276C21C7B4F900263930 /* SecondViewController.swift in Sources */,
+				2326276821C7B4F900263930 /* AppDelegate.swift in Sources */,
+				2326276A21C7B4F900263930 /* FirstViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2326277621C7B4FB00263930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2326277F21C7B4FB00263930 /* GroovyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2326278121C7B4FB00263930 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2326278A21C7B4FB00263930 /* GroovyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2326277C21C7B4FB00263930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2326276321C7B4F900263930 /* Groovy */;
+			targetProxy = 2326277B21C7B4FB00263930 /* PBXContainerItemProxy */;
+		};
+		2326278721C7B4FB00263930 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2326276321C7B4F900263930 /* Groovy */;
+			targetProxy = 2326278621C7B4FB00263930 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2326276D21C7B4F900263930 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2326276E21C7B4F900263930 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2326277221C7B4FB00263930 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2326277321C7B4FB00263930 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2326278C21C7B4FB00263930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2326278D21C7B4FB00263930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2326278F21C7B4FB00263930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = Groovy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.Groovy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2326279021C7B4FB00263930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = Groovy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.Groovy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2326279221C7B4FB00263930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = GroovyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.GroovyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groovy.app/Groovy";
+			};
+			name = Debug;
+		};
+		2326279321C7B4FB00263930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = GroovyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.GroovyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Groovy.app/Groovy";
+			};
+			name = Release;
+		};
+		2326279521C7B4FB00263930 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = GroovyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.GroovyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Groovy;
+			};
+			name = Debug;
+		};
+		2326279621C7B4FB00263930 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T4NR23YB3V;
+				INFOPLIST_FILE = GroovyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = icyflame.GroovyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Groovy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2326275F21C7B4F900263930 /* Build configuration list for PBXProject "Groovy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2326278C21C7B4FB00263930 /* Debug */,
+				2326278D21C7B4FB00263930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2326278E21C7B4FB00263930 /* Build configuration list for PBXNativeTarget "Groovy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2326278F21C7B4FB00263930 /* Debug */,
+				2326279021C7B4FB00263930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2326279121C7B4FB00263930 /* Build configuration list for PBXNativeTarget "GroovyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2326279221C7B4FB00263930 /* Debug */,
+				2326279321C7B4FB00263930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2326279421C7B4FB00263930 /* Build configuration list for PBXNativeTarget "GroovyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2326279521C7B4FB00263930 /* Debug */,
+				2326279621C7B4FB00263930 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2326275C21C7B4F900263930 /* Project object */;
+}
